@@ -1,0 +1,284 @@
+body {
+    background: #a3aab1;
+}
+
+
+.container {
+    background: #ffffff;
+    margin-top: 70px;
+    padding: 0;
+}
+
+.nav {
+    padding-top: 38px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-family: Ubuntu, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #9ba7b4;
+}
+
+.info {
+    height: 320px;
+    padding-top: 120px;
+}
+
+.row {
+    margin: 0;
+}
+
+.phone {
+    color: #8fc74a;
+    font-family: 'Ubuntu-light', sans-serif;
+    font-size: 28.5px;
+}
+
+@media (min-width: 768px) and (max-width: 991px),(min-width: 576px) and (max-width: 767px) {
+    .info {
+        padding-top: 50px;
+        height: 150px;
+    }
+
+    .phone {
+        font-size: 16.5px;
+    }
+
+    .qbutton {
+        height: 22px;
+        width: 100px;
+    }
+
+    .container {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .house img {
+        height: 260px;
+    }
+
+    .logo img {
+        height: 50px;
+    }
+
+    .headerTy {
+        padding: 0 0;
+    }
+
+    .headerTyp {
+        font-size: 24px;
+    }
+
+    .about {
+        height: 430px;
+    }
+
+    .aboutCont {
+        border: 3px white solid;
+        margin: 24px !important;
+        flex-wrap: wrap;
+        padding: 20px 29px;
+    }
+
+    .qbutton {
+        height: 36px;
+        width: 172px;
+    }
+    .newsItem img {
+        max-width: 100% !important;
+    }
+    .newsPic p{
+        max-width: 345px !important;
+        font-size: 20px !important;
+    }
+    .labelDate p{
+        font-size: 15px !important;
+    }
+    .labelDate p:first-child {
+        font-size: 26px !important;
+    }
+    .labelDate {
+        top: -218px !important; ;
+    }
+}
+
+.house img {
+    height: 284px;
+}
+
+.types {
+    height: 600px;
+    padding-top: 100px;
+}
+
+.headerTy {
+    padding: 0 15px;
+}
+
+.typesHeader {
+    font-family: 'Ubuntu Light', sans-serif;
+    height: 37px;
+    font-size: 37px;
+    text-transform: uppercase;
+}
+
+.headerTy:nth-child(n) {
+    width: 33.33333%;
+}
+
+.typeItems {
+    padding: 50px 50px 0;
+
+}
+
+.typeItem h2 {
+    text-transform: uppercase;
+}
+
+.about {
+    background: url("../images/about.jpg") no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.aboutCont {
+    max-width: 585px;
+    border: 5px white solid;
+    margin: 105px auto;
+    flex-wrap: wrap;
+    padding: 20px 29px;
+}
+
+.aboutHead{
+    font-family: "Ubuntu Light", sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.aboutCont p{
+    font-family: Ubuntu, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.aboutCont img {
+    height: 65%;
+    width: 65%;
+    margin: 10px;
+}
+
+.news {
+    background: #f7f7f7;
+    min-height: 400px;
+}
+
+.news .typesHeader {
+    padding-top: 30px;
+}
+
+.news .headerTyp {
+    padding: 0 60px;
+}
+
+.newsItem img {
+    max-width: 250px;
+}
+
+.newsPic {
+    margin: 100px auto;
+}
+
+.newsPic p{
+    max-width: 250px;
+    background: #ffffff;
+    padding: 5px 10px;
+    font-family: "Ubuntu Light", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #6e7b82;
+}
+
+.labelDate {
+    position: relative;
+    top: -178px;
+    left: 5px;
+    z-index: 10;
+}
+
+.labelDate p{
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    line-height: 1;
+    color: #9ba7b4;
+    font-family: "Ubuntu Light", sans-serif;
+    font-size: 11px;
+}
+
+.labelDate p:first-child {
+    font-size: 22px;
+}
+
+.gallery .headerTyp {
+    padding: 0 30px;
+}
+
+.galleryPic {
+    padding-top: 50px;
+}
+
+.galleryPic .left img{
+    width: 80%;
+    border-right: 8px #ffffff solid;
+}
+
+.galleryPic .right img {
+    width: 81%;
+}
+
+.footer {
+    height: 100px;
+    background: #f7f7f7;
+    margin-top: 40px;
+}
+
+.text {
+    width: 100px;
+    font-family: PTSans, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1.29;
+    text-align: left;
+    color: #868e91;
+}
+
+
+
+
+.iconsSocial div{
+    margin: 0 3px;
+    height: 24px;
+    width: 24px;
+    border: 1px #b6bdc6 solid;
+    border-radius: 50%;
+}
+
+.iconsSocial i{
+    font-size: 12px;
+    line-height: 1.29;
+    text-align: left;
+    color: #868e91;
+}
+
+.footerLeft {
+    margin-left: 10px;
+}
+
+.footerRight .text {
+    text-transform: lowercase;
+    width: 136px;
+}
