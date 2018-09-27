@@ -36,7 +36,13 @@ body {
     font-size: 28.5px;
 }
 
-@media (min-width: 768px) and (max-width: 991px),(min-width: 576px) and (max-width: 767px) {
+@media (max-width: 474px) {
+    .house {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px),(min-width: 576px) and (max-width: 767px), (max-width: 575px) {
     .info {
         padding-top: 50px;
         height: 150px;
