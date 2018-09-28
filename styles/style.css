@@ -21,13 +21,16 @@ body {
     color: #9ba7b4;
 }
 
-.info {
-    height: 320px;
-    padding-top: 120px;
-}
-
 .row {
     margin: 0;
+}
+
+.info {
+    padding: 25px 0;
+}
+
+.info a {
+    text-decoration: none;
 }
 
 .phone {
@@ -40,15 +43,11 @@ body {
     .house {
         display: none !important;
     }
-    .headerTyp {
-        font-size: 12px ;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 991px),(min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-    .info {
-        padding-top: 50px;
-        height: 150px;
+    .info div {
+        padding: 25px 0;
     }
 
     .phone {
@@ -123,10 +122,6 @@ body {
     padding-top: 100px;
 }
 
-/*.headerTy {*/
-    /*padding: 0 15px;*/
-/*}*/
-
 .typesHeader {
     font-family: 'Ubuntu Light', sans-serif;
     font-size: 33px;
@@ -137,13 +132,12 @@ body {
     width: 80%;
 }
 
-.typeItems {
-    padding: 50px 50px 0;
-
-}
-
 .typeItem h2 {
     text-transform: uppercase;
+}
+
+.typeItem img {
+    max-width: 100%;
 }
 
 .about {
@@ -226,10 +220,6 @@ body {
     font-size: 22px;
 }
 
-.gallery .headerTyp {
-    padding: 0 30px;
-}
-
 .galleryPic {
     padding-top: 50px;
 }
@@ -275,6 +265,10 @@ body {
     line-height: 1.29;
     text-align: left;
     color: #868e91;
+}
+
+.iconsSocial a{
+    text-decoration: none;
 }
 
 .footerLeft {
