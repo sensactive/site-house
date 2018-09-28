@@ -50,30 +50,9 @@ body {
         padding: 25px 0;
     }
 
-    .phone {
-        font-size: 16.5px;
-    }
-
-    .qbutton {
-        height: 22px;
-        width: 100px;
-    }
-
     .container {
         margin: 0;
         max-width: 100%;
-    }
-
-    .house img {
-        height: 260px;
-    }
-
-    .logo img {
-        height: 50px;
-    }
-
-    .headerTy {
-        padding: 0 0;
     }
 
     .headerTyp {
@@ -89,27 +68,6 @@ body {
         margin: 24px !important;
         flex-wrap: wrap;
         padding: 20px 29px;
-    }
-
-    .qbutton {
-        height: 36px;
-        width: 172px;
-    }
-    .newsItem img {
-        max-width: 100% !important;
-    }
-    .newsPic p{
-        max-width: 345px !important;
-        font-size: 20px !important;
-    }
-    .labelDate p{
-        font-size: 15px !important;
-    }
-    .labelDate p:first-child {
-        font-size: 26px !important;
-    }
-    .labelDate {
-        top: -218px !important; ;
     }
 }
 
