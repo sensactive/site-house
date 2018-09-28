@@ -40,6 +40,9 @@ body {
     .house {
         display: none !important;
     }
+    .headerTyp {
+        font-size: 12px ;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px),(min-width: 576px) and (max-width: 767px), (max-width: 575px) {
@@ -75,7 +78,7 @@ body {
     }
 
     .headerTyp {
-        font-size: 24px;
+        font-size: 16px ;
     }
 
     .about {
@@ -120,19 +123,18 @@ body {
     padding-top: 100px;
 }
 
-.headerTy {
-    padding: 0 15px;
-}
+/*.headerTy {*/
+    /*padding: 0 15px;*/
+/*}*/
 
 .typesHeader {
     font-family: 'Ubuntu Light', sans-serif;
-    height: 37px;
-    font-size: 37px;
+    font-size: 33px;
     text-transform: uppercase;
 }
 
-.headerTy:nth-child(n) {
-    width: 33.33333%;
+.headerTy img:nth-child(n) {
+    width: 80%;
 }
 
 .typeItems {
@@ -186,10 +188,6 @@ body {
     padding-top: 30px;
 }
 
-.news .headerTyp {
-    padding: 0 60px;
-}
-
 .newsItem img {
     max-width: 250px;
 }
@@ -211,7 +209,6 @@ body {
 .labelDate {
     position: relative;
     top: -178px;
-    left: 5px;
     z-index: 10;
 }
 
