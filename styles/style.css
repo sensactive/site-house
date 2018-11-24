@@ -76,7 +76,6 @@ body {
 }
 
 .types {
-    height: 600px;
     padding-top: 100px;
 }
 
@@ -90,12 +89,29 @@ body {
     width: 80%;
 }
 
+.typeItem {
+    margin: 15px 0;
+}
+
 .typeItem h2 {
     text-transform: uppercase;
 }
 
 .typeItem img {
     max-width: 100%;
+}
+
+.price {
+    font-weight: bold;
+    font-family: "Ubuntu Light", sans-serif;
+    font-size: 20px;
+}
+
+.itemBtn {
+    background: #8fc74a;
+    border-radius: 50px;
+    text-align: center;
+    font-family: Algerian sans-serif;
 }
 
 .about {
@@ -236,4 +252,20 @@ body {
 .footerRight .text {
     text-transform: lowercase;
     width: 136px;
+}
+
+.userInfo {
+    margin: auto;
+}
+
+.contactBtn {
+    margin: 15px 0;
+    border-radius: 50px;
+    background: #8fc74a;
+    font-family: Algerian sans-serif;
+}
+
+.formFon {
+    background: #8fc74a;
+    font-family: Algerian sans-serif;
 }
